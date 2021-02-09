@@ -16,4 +16,12 @@ class AktorModel extends Model
         }
         return $this->where(['id_aktor' => $id])->first();
     } #endgetAktor
+
+    public function getNama($aktor = false)
+    {
+        if ($aktor === false) {
+            return $this->find();
+        }
+        return $this->where(['aktor' => $aktor]);
+    }
 }

@@ -14,7 +14,19 @@ class ProjectModel extends Model
         if ($id === false) {
             return $this->findAll();
         }
-        return $this->where(['id_project' => $id])->first();
-    } #endgetProject
+        return $this->where(['id_project' => $id]);
+    }
 
+    public function hitungNama($nama = false)
+    {
+        if ($nama === false) {
+            return $this->countAllResults();
+        }
+        return $this->where(['nama' => $nama]);
+    }
+
+    public function search($keywoard)
+    {
+        return $this->table('project')->like('nama', $keywoard);
+    }
 }

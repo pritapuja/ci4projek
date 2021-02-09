@@ -24,6 +24,9 @@
                                     <label for="colFormLabel" class="col-sm-2 col-form-label">Name</label>
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control" id="nama" placeholder="Enter Name" name="nama">
+                                        <div class="invalid-feedback errorNama">
+
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="form-group row">
@@ -47,7 +50,7 @@
                             <div class="card-body formActor">
                                 <div class="form-group row">
                                     <div class="col-sm-11">
-                                        <input type="text" class="form-control" id="" placeholder="Enter Actor" name="aktor[]" id="aktor[]">
+                                        <input type="text" class="form-control" placeholder="Enter Actor" name="aktor[]" id="aktor[]">
                                     </div>
                                     <div class="col-sm-1">
                                         <button type="button" class="btn btn-primary btnAddactor">

@@ -1,11 +1,11 @@
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
         <div class="sidebar-brand-icon">
             <i class="fas fa-file-alt"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">PROJECT FILE MANAGEMENT</div>
+        <div class="sidebar-brand-text mx-3">DIGIMEN</div>
     </a>
 
     <!-- Divider -->
@@ -15,7 +15,8 @@
     <li class="nav-item">
         <a class="nav-link" href="/">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard</span></a>
+            <span>Dashboard</span>
+        </a>
     </li>
 
     <!-- Divider -->
@@ -34,12 +35,19 @@
         </a>
     </li>
 
-    <li class="nav-item">
+    <!-- <li class="nav-item">
         <a class="nav-link" href="/pages/formactor">
             <i class="fas fa-fw fa-folder"></i>
-            <span>Project Details</span>
+            <span>Detail Project</span>
         </a>
-    </li>
+    </li> -->
+
+    <!-- <li class="nav-item">
+        <a class="nav-link" href="/pages/tabel">
+            <i class="fas fa-fw fa-folder"></i>
+            <span>Tabel</span>
+        </a>
+    </li> -->
 
 
     <!-- Divider -->

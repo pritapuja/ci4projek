@@ -15,16 +15,27 @@ $(document).ready(function() {
                 $('.btnsimpan').html('Save');
             },
             success: function(response) {
-                if (response.sukses) {
+                if (response.error) {
+                    if (response.error.nama) {
+                        $('#nama').addClass('is-invalid');
+                        $('.errorNama').html(response.error.nama);
+                    } else {
+                        $('#nama').removeClass('is-invalid');
+                        $('.errorNama').html('');
+                    }
+
+
+                } else {
+
                     Swal.fire({
                         icon: 'success',
                         title: 'Succesful',
                         html: `${response.sukses}`,
                     }).then((result) => {
                         if (result.value) {
-                            window.location.href = ("/pages/formactor");
+                            window.location.href = ("/pages/formactor/"+response.id_project);
                         }
-                    })
+                    });
                 }
             }
             

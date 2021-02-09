@@ -109,16 +109,21 @@
 
     <!-- Custom scripts for all pages-->
     <script src="<?= base_url(); ?>/js/sb-admin-2.min.js"></script>
-
-    <script src="<?= base_url(); ?>/js/save/saveprojek.js"></script>
     <!-- <script src="<?= base_url(); ?>/js/ambildata/ambildata.js"></script> -->
 
+    <script src="<?= base_url(); ?>/js/save/saveprojek.js"></script>
     <script src="<?= base_url(); ?>/js/createproject/addactor.js"></script>
+
     <script src="<?= base_url(); ?>/js/aktor/addformdfs.js"></script>
     <script src="<?= base_url(); ?>/js/aktor/btnAddflow1.js"></script>
     <script src="<?= base_url(); ?>/js/aktor/btnAddflow2.js"></script>
     <script src="<?= base_url(); ?>/js/aktor/btnAddflow3.js"></script>
     <script src="<?= base_url(); ?>/js/aktor/btnAddflow4.js"></script>
+    <script src="<?= base_url(); ?>/js/aktor/btnAddflow5.js"></script>
+
+    <script src="<?= base_url(); ?>/js/save/savedfs.js"></script>
+    <!-- <script src="<?= base_url(); ?>/js/save/modal.js"></script> -->
+    <script src="<?= base_url(); ?>/js/excel/exportexcel.js"></script>
 
 </body>
 
